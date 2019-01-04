@@ -11,7 +11,7 @@ var topics=[];
 function collectInput(){
 //check if the input is already in the array
 //alert if already in the array
-
+//input must not be null or empty string
 //add text into the array
 }
 
@@ -27,7 +27,29 @@ function generateButton(){
 
 
 }
+//generates the div with the gif
+function generateDiv(gifURL){
+// create a variable to hold the gifURL
 
+// creates a new div
+
+// creates a new gif image onto the div
+
+// output a new div in the gifHolder div
+
+
+}
+//generates a gifURL given the input from the user
+function generateGifURL(person, rating){
+  // create variable to hold person text
+  // create variable to hold rating level
+
+  // return URL with person name
+}
+//CLEARS THE GIF DIV
+function clearBoard(){
+  
+}
 
 
 //When the user clicks on a button, the page should grab 10 static,
