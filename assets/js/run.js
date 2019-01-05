@@ -35,7 +35,7 @@ $("#search").click(function(){
   });
 });
 
-$("#btn btn-danger").click(function(){
+$("#clear").click(function(){
   $(".buttons text-center").empty();
   $(".gifsHere").empty();
 });
