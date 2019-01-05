@@ -31,3 +31,12 @@ text-shadow: 2px 2px 4px #000000;
     transition: all 0.45s ease;
   text-shadow: 2px 2px 4px #000000;
 }
+
+.gifsHere{
+display: inline-block;
+
+}
+img{
+  padding: 5px;
+
+}
