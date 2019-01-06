@@ -15,20 +15,18 @@ $("#input1").click(function(meh){
 
 //click search and perform ajax call
 $("#search").click(function(){
+
   newSearch();
   term=$("#input1").val().trim();
 
 if(topics.includes(term)){
   $("#input1").val("ALREADY SEARCHED");
-
 }
 else{
   topics.push(term);
   generateButton(topics);
 }
-
-
-  var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
+var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
           term + "&api_key=dc6zaTOxFJmzC&limit="+count;
 
 
