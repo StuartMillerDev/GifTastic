@@ -40,3 +40,12 @@ img{
   padding: 5px;
 
 }
+
+#buttons btn{
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.btn-group{
+  padding-bottom: 15px;
+}

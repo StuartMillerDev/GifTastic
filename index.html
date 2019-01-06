@@ -3,7 +3,11 @@
   <head>
     <meta charset="utf-8">
     <title></title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+
+
     <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
@@ -24,6 +28,7 @@
             </div>
             <!-- Instruction text -->
                   <div class="card-body">
+
                       <ol>
                         <li>Enter in the name of a popular HollyWood actor</li>
                         <li>Click "Search"</li>
@@ -31,10 +36,26 @@
                       </ol>
                   </div>
                   <div class="text-center">
+                    <h5>RATING: </h5>
+                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                      <label class="btn btn-secondary active">
+                        <input type="radio" name="options" id="G" autocomplete="off" checked> G
+                      </label>
+                      <label class="btn btn-secondary">
+                        <input type="radio" name="options" id="PG" autocomplete="off"> PG
+                      </label>
+                      <label class="btn btn-secondary">
+                        <input type="radio" name="options" id="PG-13" autocomplete="off"> PG-13
+                      </label>
+                      <label class="btn btn-secondary">
+                        <input type="radio" name="options" id="PG-13" autocomplete="off"> R
+                      </label>
+                    </div>
                     <form class="" action="index.html" method="post">
                       <input type="text" name="" value="" id="input1">
                       <button type="button" name="button" class="btn btn-default" id="search">SEARCH</button>
                     </form>
+                    <br>
                   </div>
               </div>
             </div>
@@ -51,7 +72,6 @@
                   <div class="buttons text-center" id="buttons">
 
                   </div>
-                  topics get added here
                   <button type="button" name="button" class="btn btn-danger" id="clear">CLEAR</button>
                 </div>
               </div>
@@ -64,7 +84,6 @@
               <div class="text-center">
                 <h5>GIFS!</h5>
               </div>
-
             </div>
             <div class="card-body">
               <div class="row">
@@ -78,6 +97,9 @@
 
 
     <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="assets/js/run.js"></script>
   </body>
 </html>
